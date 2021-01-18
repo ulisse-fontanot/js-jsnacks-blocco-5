@@ -69,8 +69,20 @@ for (var i = 0; i < zucchine.length; i++) {
   }
 }
 
+var pesototsotto15 = 0;
+for (var i = 0; i < sotto15.length; i++) {
+  pesototsotto15 += sotto15[i];
+}
+
+var pesototsopra15 = 0;
+for (var i = 0; i < sopra15.length; i++) {
+  pesototsopra15 += sopra15[i];
+}
+
 console.log(sotto15);
 console.log(sopra15);
+console.log("la somma delle zucchine sotto i 15cm è: " + pesototsotto15);
+console.log("la somma delle zucchine sopra i 15cm è: " + pesototsopra15);
 
 //FUNZIONI
 function numeri(min,max) {
